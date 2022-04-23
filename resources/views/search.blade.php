@@ -16,14 +16,13 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 
-            <h1 class="my-4">Laravel Blog
-                <small>Page d'accueil</small>
+            <h1 class="my-4">Résultat de recherche pour:
+                <small>{{$key}}</small>
             </h1>
 
             @include('_partials.posts-list')
 
         </div>
         @include('_partials.sidebar')
-        @include('widgets.blog-mansonry')
     </div>
 @endsection
