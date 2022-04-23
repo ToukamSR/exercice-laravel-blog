@@ -8,7 +8,7 @@
 @endsection
 
 @section('title')
-    <title>{{setting('site.title')}}</title>
+    <title>Blog</title>
 @endsection
 
 @section('content')
